@@ -1,0 +1,28 @@
+1. 문자열 나누기
+>>> a = "2019575001고미선"
+>>> number = a[:10]
+>>> name = a[10:]
+>>> number
+'2019575001'
+>>> name
+'고미선'
+
+
+
+2. 문자열 대입
+1)숫자 바로 대입
+>>> "I eat %d apples." %3
+'I eat 3 apples.'                      숫자대입 = %d
+
+2)문자열 바로 대입
+>>> "I eat %s apples." % "five"
+'I eat five appels.'                   문자대입 = %s
+
+3) 2개 이상의 값 넣기
+>>> number = 10
+>>> day = "three"
+>>> "I ate %d apples. so I was sick for %s day." %(number, day)
+'I ate 10 apples. so I was sick for three days.'
+
+
+
